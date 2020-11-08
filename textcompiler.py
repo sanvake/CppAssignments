@@ -1,7 +1,7 @@
 import os
 # change assignment/ to name of folder where cpp files are saved
 p="assignment/"
-pathlist = sorted(os.listdir(p), key = lambda x: int("".join([i for i in x if i.isdigit()])))
+pathlist = sorted(os.listdir(p), key = lambda x: int("".join([i for i in x if (i.isdigit() and x.lower().endswith('.cpp'))])))
 j=1
 name="Vakesan M"
 regno="18GAEM9089"
