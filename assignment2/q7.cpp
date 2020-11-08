@@ -1,6 +1,3 @@
-//Assignment-2, Q3
-
-
 #include <iostream>
 #include <cmath>
 
