@@ -1,6 +1,3 @@
-//Assignment-2, Q4
-
-
 #include <iostream>
 #define MAX 30
 

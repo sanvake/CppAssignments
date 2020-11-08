@@ -1,7 +1,3 @@
-//Assignment-2, Q1
-//By Manu Govind,5th sem Mechanical
-//Reg.no: 18GAEM9048 
-
 #include <iostream>
 
 using namespace std;
