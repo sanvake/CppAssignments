@@ -12,6 +12,6 @@ with open('concatfile.txt','a') as outfile:
         with open(p+path,'r') as infile:
             k="\n\n\nquestion "+str(j)+"\n\n"
             outfile.write(k)
-            j=j+1
+            j+=1
             outfile.write(infile.read())
             print(path)
